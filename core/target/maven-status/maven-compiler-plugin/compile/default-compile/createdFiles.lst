@@ -1,0 +1,7 @@
+mal\art\messageGenerator\MessageGeneratorImpl.class
+mal\art\messageGenerator\MessageGenerator.class
+mal\art\numberGenerator\NumberGeneratorImpl.class
+mal\art\configuration\AppConfiguration.class
+mal\art\game\Game.class
+mal\art\game\GameImpl.class
+mal\art\numberGenerator\NumberGenerator.class
