@@ -17,7 +17,6 @@ public class Main {
 		ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfiguration.class);
 
 		context.close();
-		
 	}
 
 }
