@@ -2,27 +2,23 @@ package mal.art.main;
 
 import java.util.Scanner;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
+import lombok.extern.slf4j.Slf4j;
 import mal.art.game.Game;
 import mal.art.messageGenerator.MessageGenerator;
 
+@Slf4j
 @Component
 public class ConsoleNumberGuess {
 
-	private static final Logger log = LoggerFactory.getLogger(ConsoleNumberGuess.class);
-	
 	private final Game game;
 	
 	private final MessageGenerator messageGenerator;
 	
 	public ConsoleNumberGuess(Game game, MessageGenerator messageGenerator) {
-		super();
 		this.game = game;
 		this.messageGenerator = messageGenerator;
 	}
